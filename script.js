@@ -15,7 +15,7 @@ function contarLetra(str, letra) {
 //Ejercicio 2:
 //Diseña un algoritmo que imprima los números impares entre un número dado por el usuario y los siguientes 50 impares
 const ingresoNumero = parseInt(prompt("Ingrese un número")); //prompt de ingreso de num
-if (ingresoNumero % 2 !== 0) {
+if (ingresoNumero) {
   let contadorImpares = 0; //almacena la cuenta de impares
 
   for (let i = ingresoNumero; contadorImpares < 50; i++) {
